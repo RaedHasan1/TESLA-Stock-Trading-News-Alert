@@ -30,12 +30,10 @@ two_days_stock_data = stock_data_list[1]
 two_days_stock_closing_data = two_days_stock_data["4. close"]
 
 difference = abs(float(yesterday_stock_closing_data) - float(two_days_stock_closing_data))
-if (float(yesterday_stock_closing_data) - float(two_days_stock_closing_data)) < 0:
-    diff_sign = "-"
+if (float(yesterday_stock_closing_data) - float(two_days_stock_closing_data)) <= 0:
+    diff_sign = "🔻"
 elif float(yesterday_stock_closing_data) - float(two_days_stock_closing_data) > 0:
-    diff_sign = "+"
-else:
-    diff_sign = ""
+    diff_sign = "🔺"
 diff_percent = (difference / float(two_days_stock_closing_data)) * 100
 
 news_params = {
