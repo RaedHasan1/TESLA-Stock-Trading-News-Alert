@@ -21,6 +21,10 @@ Secure Email Delivery: The system employs secure email delivery protocols to ens
 
 Error Handling: The program includes robust error handling mechanisms to ensure the stability and reliability of the application.
 
+# NOTE: 
+
+to manage to run the code, the user needs to update there own informatin, like, email address and email password. also APIKeys.
+
 User-Friendly Interface: The project offers a clean and intuitive user interface that allows users to access information and manage preferences effortlessly.
 
 The Python Stock Trading News Alert project empowers users to stay informed about significant changes in Tesla Inc.'s stock value, providing valuable insights and potential investment opportunities. By delivering real-time email alerts with curated articles and visual indicators, the system enables users to make well-informed decisions in the dynamic world of stock trading.
