@@ -23,8 +23,6 @@ Error Handling: The program includes robust error handling mechanisms to ensure 
 
 # NOTE: 
 
-to manage to run the code, the user needs to update there own informatin, like, email address and email password. also APIKeys.
+To execute this code successfully, you need to replace the placeholder API keys with actual valid keys. Additionally, you need to enable "less secure apps" on your Gmail account or use an app password (if you have two-factor authentication enabled) to allow the script to send emails via the Gmail SMTP server.
 
-User-Friendly Interface: The project offers a clean and intuitive user interface that allows users to access information and manage preferences effortlessly.
-
-The Python Stock Trading News Alert project empowers users to stay informed about significant changes in Tesla Inc.'s stock value, providing valuable insights and potential investment opportunities. By delivering real-time email alerts with curated articles and visual indicators, the system enables users to make well-informed decisions in the dynamic world of stock trading.
+Please be cautious while using real API keys and email credentials, and ensure you follow the terms of service of the API providers.
