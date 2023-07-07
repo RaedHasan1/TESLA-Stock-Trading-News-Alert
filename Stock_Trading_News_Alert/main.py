@@ -19,8 +19,7 @@ if (float(yesterday_stock_closing_data) - float(two_days_stock_closing_data)) <=
 
 diff_percent = (difference / float(two_days_stock_closing_data)) * 100
 
-NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-news_request = requests.get(NEWS_ENDPOINT, params=KEYS.news_params)
+news_request = requests.get(KEYS.NEWS_ENDPOINT, params=KEYS.news_params)
 news_request.raise_for_status()
 five_articles = news_request.json()["articles"][:5]
 five_articles_list = [f"HeadLine: {article['title']} \nBrief: {article['description']}" for article in five_articles]
